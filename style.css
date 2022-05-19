@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #25282a;
+    background-color: rgb(66, 56, 42);
     color: white;
 }
 .slider {
@@ -40,11 +40,11 @@ body{
 .contr {
     display: flex;
 }
-.dot{
+.pach{
     padding: 7px;
     margin: 5px;
-    border: 2px solid #71abff;
-    background-color: #71abff;
+    border: 1px solid blue;
+    background-color: purple;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -56,7 +56,7 @@ body{
     -ms-transition: all 0.5;
     -o-transition: all 0.5;
 }
-.dot:hover{
+.pach:hover{
     background-color: #fff;
     border: 2px solid white;
     cursor: pointer;
